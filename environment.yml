@@ -3,11 +3,10 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - jupyter=1.1.1
-  - matplotlib=3.11.0
-  - numpy=2.5.0
+  - python=3.12
+  - jupyter
+  - matplotlib
+  - numpy
   - openpyxl
-  - pandas=3.0.3
-  - python=3.14.6
-  - scipy=1.18.0
-prefix: /Users/felixboschetty/anaconda3/envs/regression
+  - pandas
+  - scipy<1.19.0
